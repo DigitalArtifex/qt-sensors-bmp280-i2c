@@ -1,0 +1,106 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 79,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"libqt6-sensors-bmp280-i2c.so"
+			],
+			"targetId" : "qt6-sensors-bmp280-i2c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/opt/Qt/6.9.0/gcc_arm64/include/QBMP280-I2C",
+			"fileSetDirectories" : 
+			[
+				"."
+			],
+			"fileSetName" : "HEADERS",
+			"fileSetTarget" : 
+			{
+				"id" : "qt6-sensors-bmp280-i2c::@6890427a1f51a3e7e1df",
+				"index" : 0
+			},
+			"fileSetType" : "HEADERS",
+			"paths" : 
+			[
+				"qbmp280_p.h",
+				"QBMP280_global.h",
+				"qbmp280.h",
+				"qbmp280backend.h",
+				"qbmp280reading.h"
+			],
+			"type" : "fileSet"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/opt/Qt/6.9.0/gcc_arm64/lib",
+			"paths" : 
+			[
+				"libqt6-sensors-bmp280-i2c.so"
+			],
+			"targetId" : "qt6-sensors-bmp280-i2c::@6890427a1f51a3e7e1df",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/opt/Qt/6.9.0/gcc_arm64/plugins/sensors",
+			"paths" : 
+			[
+				"libqt6-sensors-bmp280-i2c-plugin.so"
+			],
+			"targetId" : "qt6-sensors-bmp280-i2c-plugin::@6890427a1f51a3e7e1df",
+			"targetIndex" : 1,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}
